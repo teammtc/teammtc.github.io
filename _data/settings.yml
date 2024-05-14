@@ -2,13 +2,13 @@
 #-------------------------------
 # General Site Settings
 
-title: Kross
+title: Team MTC (More than CPP)
 logo:
-author: themefisher
-description: this is meta description
-email: steve.fruits@email.com
+author: Marshall Lee
+description: Welcome to Team MTC
+email: marshall.s.lee@gmail.com
 phone: +880 2544 658 256
-address: 125/A, CA Commercial Area, California, USA
+address: Seoul, Republic of Korea
 copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
 menu:
@@ -300,4 +300,4 @@ client-slider-items:
 # Contact Section
 
 contact-title: Contact Info
-contact-email: steve.fruits@email.com
+contact-email: marshall.s.lee@gmail.com
