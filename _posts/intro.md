@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  teammtc 소개
+date:   2024-05-14
 author: Marshall
 tags:   CPP
 ---
