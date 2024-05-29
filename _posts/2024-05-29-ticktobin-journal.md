@@ -2,7 +2,6 @@
 layout: post
 title:  시퀀스 다이어그램 - 텍스트 파일 읽어서 TR 코드별 갯수 카운팅
 date:   2024-05-29 
-image: /assets/images/blog/qt_sample.png
 author: Marshall
 tags:   [Qt, TickToBin, C++]
 ---
