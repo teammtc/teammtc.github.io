@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  시퀀스 다이어그램
-date:   2024-05-29 
+date:   2024-05-29
+image: /assets/images/blog/qt_sample.png
 author: Marshall
 tags:   [Qt, TickToBin, C++]
 ---
