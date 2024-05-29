@@ -17,5 +17,3 @@ tags:   [Qt, TickToBin, C++]
 
 ### References
 * 시퀀스 다이어그램 온라인 작성 방법에 대한 가이드는 [여기](https://sequencediagram.org/instructions.html)를 참조하였음.
-
-
