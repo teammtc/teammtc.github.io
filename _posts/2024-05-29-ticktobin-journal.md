@@ -8,6 +8,7 @@ tags:   [Qt, TickToBin, C++]
 ---
 
 # (1) 정상 케이스 - 텍스트 파일 선택
+
 ![텍스트 파일 선택](../assets/images/diagram/select_txt.png)
 
 ## References
