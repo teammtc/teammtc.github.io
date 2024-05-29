@@ -1,0 +1,18 @@
+
+participant [
+participant CDlgMain
+participant CThDataReader
+
+participant CThDataReader_run
+participant QTimer
+[->CDlgMain:slotBtnStatsTR
+CDlgMain->CThDataReader_run:start thread
+activate CThDataReader_run #2196f3
+CThDataReader_run->CThDataReader_run:status변경: INIT->RUNNING
+CThDataReader_run->CThDataReader_run:processReading
+CThDataReader<-CThDataReader_run:멤버변수 업데이트
+deactivate CThDataReader_run
+QTimer->CThDataReader:1초마다 시그널 발생 (timeout)
+CThDataReader->CThDataReader:slotPrtStatsCycle
+CThDataReader->CDlgMain:sigAnalyseData
+CDlgMain->CDlgMain:slotAnalyseData
