@@ -1,12 +1,14 @@
 ---
 layout: post
-title:  시퀀스 다이어그램 - 텍스트 파일 읽어서 TR 코드별 갯수 카운팅
+title:  시퀀스 다이어그램
 date:   2024-05-29 
 author: Marshall
 tags:   [Qt, TickToBin, C++]
 ---
 
-# (1) 정상 케이스 - 텍스트 파일 선택
+# Sequence Diagram
+
+## (1) 정상 케이스 - 텍스트 파일 선택
 
 ![텍스트 파일 선택](../assets/images/diagram/select_txt.png)
 
