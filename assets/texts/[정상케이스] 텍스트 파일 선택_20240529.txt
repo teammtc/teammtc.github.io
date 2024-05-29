@@ -1,0 +1,10 @@
+[->CDlgMain:sigBtnOpenFile
+CDlgMain->CDlgMain:slotBtnOpenFile
+CDlgMain->CThDataReader:sigPrepareFile
+CThDataReader->CThDataReader:slotPrepareFile
+activate CThDataReader #3f51b5
+CThDataReader->CThDataReader:checkValidFile
+CThDataReader->CDlgMain:sigFileValidity
+deactivate CThDataReader
+activate CDlgMain #f44336
+CDlgMain->CDlgMain:ui->btnStatsTR->setEnabled(true)
