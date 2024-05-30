@@ -4,12 +4,14 @@ title:  Chapter 7 - New Attributes and Attribute Features
 date:   2024-05-30
 image: /assets/images/blog/qt_sample.png
 author: Marshall
-tags:   [C++]
+tags:   [C++17]
 ---
 
 ## attribute
 * 함수 혹은 변수 앞에 쓰여서 컴파일 시에 특정 메시지를 생성하거나 컴파일러가 특정 동작을 수행할 수 있도록 해주는 속성.
 * return 값이 버려지는 경우 경고 발생시킴.
+
+이번 글에서는 C++17에서 새로 생긴 attribute을 소개한다.
 
 ### `[[nodiscard]]`
 * 함수의 리턴 값을 버리지 말라고 함.
@@ -78,4 +80,7 @@ maybe_unused_001.cpp:6:25: note: attribute for ‘struct Person’ must follow t
 
 `[[maybe_unused]]` 키워드를 제거한 후 컴파일을 해보면, 아무 경고 없이 컴파일 되는 것을 확인할 수 있다.
 
+*객체가 아니라 원시 타입 앞에 [[maybe_unused]] 키워드를 붙이면 미사용시에도 경고 메시지가 뜨지 않는 것으로 확인.*
+
 ### `[[fallthrough]]`
+
