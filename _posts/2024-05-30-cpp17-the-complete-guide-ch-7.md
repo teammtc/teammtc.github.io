@@ -43,6 +43,39 @@ nodiscard_002.cpp:5:21: note: declared here
 ```
 
 ### `[[maybe_unused]]`
-* 어떤 변수를 선언하고 사용하지 않음으로 인해 컴파일러에서 내보내는 워닝을 발생하지 않게 해줌.
+* 어떤 객체를 생성하고 사용하지 않는 경우, 컴파일러에서 워닝을 내보냄.
+
+```c++
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+[[maybe_unused]] struct Person {
+    int age;
+    string name;
+    int income;
+};
+
+int main()
+{
+    Person p1{30, "John", 100000};
+    cout << "==========" << endl;
+    return 0;
+}
+```
+
+위의 코드에서는 `Person` 구조체를 이용한 객체 p1을 생성하였으나, 사용하고 있지는 않다.
+
+이를 컴파일 하는 경우, 다음과 같은 경고 메시지 출력.
+
+```
+maybe_unused_001.cpp:6:25: warning: attribute ignored in declaration of ‘struct Person’ [-Wattributes]
+    6 | [[maybe_unused]] struct Person {
+      |                         ^~~~~~
+maybe_unused_001.cpp:6:25: note: attribute for ‘struct Person’ must follow the ‘struct’ keyword
+```
+
+`[[maybe_unused]]` 키워드를 제거한 후 컴파일을 해보면, 아무 경고 없이 컴파일 되는 것을 확인할 수 있다.
 
 ### `[[fallthrough]]`
