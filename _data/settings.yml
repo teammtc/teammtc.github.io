@@ -12,7 +12,7 @@ address: Seoul, Republic of Korea
 menu:
   - { name: About, link: "/about" }
   - { name: Blog, link: "/blog" }
-  - { name: C++, link: "/cpp" }
+  - { name: Portfolio, link: "/portfolio" }
   - { name: Contact, link: "/contact" }
 
 #-------------------------------
@@ -185,7 +185,7 @@ portfolio-home-items:
   - image: "assets/images/portfolio/item-5.png"
     url: "#"
 
-# C++ Page
+# Portfolio Page
 portfolio-label:
   - { title: "UI/UX Design", type: "design" }
   - { title: "BRANDING", type: "branding" }
