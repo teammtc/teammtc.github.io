@@ -27,7 +27,7 @@ namespace A::B::C {
 }
 ```
 
-#### 
+#### Defined expression evaluation order (수식 평가 순서 확정)
 
 ```c++
 string s = "I heard it even works if you don't believe";
@@ -42,4 +42,35 @@ it sometimes workIdon’t believe
 it even worsometiIdon’t believe
 it even worsometimesf youIlieve
 ```
+**아직 확실치 않음** C++17에서는 evaluation order를 다음과 같이 확정.
+
+아래의 조건에서는 e1이 e2보다 앞선다.
+```
+e1 [ e2 ]
+e1 . e2
+e1 .* e2
+e1 ->* e2
+e1 << e2
+e1 >> e2
+```
+
+아래의 할당연산에서는 e1이 e2보다 앞선다.
+```
+e2 = e1
+e2 += e1
+e2 *= e1
+...
+```
+
+new Type(e)와 같은 동적 메모리 할당시에는, 할당이 e의 평가에 앞서서 수행된다.
+
+##### Backward incompatibilities 
+
+평가 순서 확정으로 인해 앞선 버전에서의 연산 결과와 맞지 않는 수행 결과가 나오는 경우가 있다.
+
+교재 60 페이지의 예제 `lang/evalexcept.cpp`를 참조.
+
+C++17 이전에는 at 함수가 `"value: "`가 출력되기 전에 먼저 평가가 되므로, 잘못된 인덱스를 가리키고 출력하는 라인 전체가 스킵이 된다.
+
+C++17 이후에는 `"value: "` 부분이 at 함수보다 먼저 평가되므로 `value: EXCEPTION ...` 이라는 결과가 출력된다.
 
