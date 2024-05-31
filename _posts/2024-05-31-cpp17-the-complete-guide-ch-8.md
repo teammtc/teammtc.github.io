@@ -74,3 +74,16 @@ C++17 이전에는 at 함수가 `"value: "`가 출력되기 전에 먼저 평가
 
 C++17 이후에는 `"value: "` 부분이 at 함수보다 먼저 평가되므로 `value: EXCEPTION ...` 이라는 결과가 출력된다.
 
+#### Relaxed Enum Initialization from Integral Values
+
+#### Fixed Direct List Initialization with `auto`
+
+#### Hexadecimal Floating-Point Literals
+
+#### UTF-8 문자 상수
+
+#### Exception Specifications as Part of the Type
+
+#### Single-Argument `static_assert`
+
+#### 전처리 조건문 `__has_include`
