@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Chapter 8 - Class Template Argument Deduction
+title:  Chapter 9 - Class Template Argument Deduction
 date:   2024-06-03
 image: /assets/images/blog/qt_sample.png
 author: Marshall
