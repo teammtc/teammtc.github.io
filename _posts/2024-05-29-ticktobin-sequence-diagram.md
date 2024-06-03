@@ -9,7 +9,7 @@ tags:   [Qt, TickToBin, C++]
 
 ### (1) 정상 케이스 - 텍스트 파일 선택
 
-![텍스트 파일 선택](https://teammtc.github.io/ assets/images/diagram/select_txt.png)
+![텍스트 파일 선택](https://teammtc.github.io/assets/images/diagram/select_txt.png)
 
 ### (2) 정상 케이스 - 텍스트 파일 읽기
 
