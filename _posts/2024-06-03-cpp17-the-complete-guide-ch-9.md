@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  [C++17 the Complete Guide] Chapter 9 - Class Template Argument Deduction
+title:  `C++17 the Complete Guide Chapter 9 - Class Template Argument Deduction`
 date:   2024-06-03
 image: /assets/images/blog/qt_sample.png
 author: Marshall
