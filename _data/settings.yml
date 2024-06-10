@@ -12,7 +12,7 @@ address: Seoul, Republic of Korea
 menu:
   - { name: About, link: "/about" }
   - { name: C++, link: "/blog" }
-  - { name: 주식 자동매매 프로젝트, link: "/project_doc" }
+  - { name: 주식 자동매매 프로젝트, link: "/ticktobin" }
   - { name: Portfolio, link: "/portfolio" }
   - { name: Contact, link: "/contact" }
 
