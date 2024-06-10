@@ -16,23 +16,7 @@ menu:
   - { name: Portfolio, link: "/portfolio" }
   - { name: Contact, link: "/contact" }
 
-#-------------------------------
-# Google Analytics Section
-
-# Analytics helps you understand who visits your website.
-# Learn more at: http://support.google.com/analytics/answer/1008065
-
-# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
-
-google-analytics: # UA-XXXXXX-X
-
-#-------------------------------
-# Comment Section (Disqus)
-
 disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
-
-#-------------------------------
-# Hero Section
 
 hero:
   hero-title: Hi! <br> Welcome to the <br> Team MTC's Web Page.
@@ -43,18 +27,11 @@ social:
   - { icon: "ti-dribbble", link: "#" }
   - { icon: "ti-twitter", link: "#" }
 
-#-------------------------------
-# About (Section and Page)
-
-# About Section
-blurb: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+blurb: Welcome to Team MTC's Blog.
 
 blurb-btn-link: "/about"
 blurb-btn-name: know more
 
-# About Page
-
-# Work Process Section
 work-process:
   - title: "Research and Plan"
     icon: "assets/images/icons/plan.png"
