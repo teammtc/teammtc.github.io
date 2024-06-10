@@ -12,6 +12,7 @@ address: Seoul, Republic of Korea
 menu:
   - { name: About, link: "/about" }
   - { name: Blog, link: "/blog" }
+  - { name: Project Documentation, link: "/project_documentation" }
   - { name: Portfolio, link: "/portfolio" }
   - { name: Contact, link: "/contact" }
 
