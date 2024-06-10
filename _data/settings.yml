@@ -11,8 +11,8 @@ address: Seoul, Republic of Korea
 
 menu:
   - { name: About, link: "/about" }
-  - { name: Blog, link: "/blog" }
-  - { name: Project Documentation, link: "/project_documentation" }
+  - { name: C++, link: "/blog" }
+  - { name: 주식 자동매매 프로젝트, link: "/project_documentation" }
   - { name: Portfolio, link: "/portfolio" }
   - { name: Contact, link: "/contact" }
 
